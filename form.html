@@ -6,9 +6,83 @@
     <title>Formulário Base</title>
 </head>
 <body>
-    <form>
-        <input type="text">
-        
+    <h1>Formulário Potente</h1>
+    <form action="">
+       <div> <!-- o type: -->
+        <label for="texto">Nome do usuário: </label>
+        <input type="text" placeholder="Informe seu nome" id="nome" name="nome">
+       </div>
+
+       <div>
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" name="senha">
+       </div>
+
+       <div>
+        <label for="data">Data de nascimento: </label>
+        <input type="date" id="data"  name="data">
+       </div>
+
+       <div>
+        <label for="tempo">Horário: </label>
+        <input type="time" id="tempo" name="tempo">
+       </div>
+
+
+       <div>
+        <label for="numero">Número favorito: </label>
+        <input type="number" id="numero" name="numero">
+       </div>
+
+       <div>
+        <label for="foto">Adicione sua foto </label>
+        <input type="file" id="foto" name="foto">
+       </div>
+
+       <!-- caso já queira que venha marcado colocar o atributo checked-->
+       <div>
+        <label for="check">Deseja continuar? </label>
+        <input type="checkbox" id="check" name="check">
+       </div>
+
+       <div>
+        <label for="ball">Check</label>
+        <input type="radio" id="ball" name="ball">
+    </div>
+
+       <!-- tipo range por padrão é 100, mas pode ser alterado com value=inicial e max=maximo-->
+       <div>
+        <label for="qualquer">Input:  </label>
+        <input type="range" id="qualquer" name="qualquer" value="0" max="100">
+       </div>
+
+       <div>
+        <label for="cor">Cor: </label>
+        <input type="color" id="cor" name="cor">
+       </div>
+
+       <div>
+        <label for="teste">Teste</label>
+        <input type="reset" id="teste" name="teste">
+       </div>
+
+         <!-- caixa de texto, cols = letras, rows= tamanho -->
+    <textarea name="" id="bio" cols="30"></textarea>
+       <br>
+
+         <div>
+         <select name="select" id="select">
+            <option value="" disabled selected>Selecione uma das opções</option>
+            <option value="receita">Receita</option>
+            <option value="despesa">Despesa</option>
+            <option value="transferencia">Transferência</option>
+         </select>
+         </div>
+
+       <div>
+        <label for="manda">Enviar? </label>
+        <input type="submit" id="manda" name="manda">
+       </div>
 
     </form>
 
