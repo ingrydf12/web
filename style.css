@@ -1,0 +1,18 @@
+/* com isso removemos as coisas que vem por padrão no css, então nesse caso deixamos a margem zerada.*/
+*{
+    margin: 0%
+}
+.bg {
+    width: 100%;
+	height: 300px;
+	background-color: #191919;
+	background-image: url('https://wallpaper.forfun.com/fetch/9c/9c6149acb94cb61014fba0b697375d31.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+p{
+    font-size: 15px;
+}
