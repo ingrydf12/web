@@ -2,17 +2,54 @@
 *{
     margin: 0%
 }
+
+:root{
+    font-size: 62.5%
+}
+
+body{
+    background-color: hsl(60, 1%, 19%);
+}
+
 .bg {
-    width: 100%;
-	height: 300px;
-	background-color: #191919;
 	background-image: url('https://wallpaper.forfun.com/fetch/9c/9c6149acb94cb61014fba0b697375d31.jpeg');
-    background-size: contain;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    height: 60rem;
+    width: 190rem;
+}
+
+h2{
+    font-size: 5rem;
+    font-family: The Tide, Roboto, Arial;
+    color: blueviolet;
+    margin: 1rem;
+    text-align: center;
 }
 
 p{
-    font-size: 15px;
+    font-size: 2rem;
+    font-family: Network Free Version, Times New Roman, Arial;
+    margin: 1rem;
+    color: aliceblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.tabela{
+    font-size: 1.8rem;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
