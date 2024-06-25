@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* deixa uma fonte padrão*/
+body{
+    font-family: Roboto;
+    font-size: 1.6rem;
+}
+
+.content{
+    display: grid;
+
+    grid-template-areas:
+    ""
+    ""
+    ""
+    ;
+}
+
+
+/*trabalhar com medidas melhores para responsividade*/
+:root{
+    font-size: 62,5% ;
+}
+
+aside h1{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+aside img {
+    width: 600px;
+    height: 800px;
+}
+
+aside h1 span, main h2 span{
+    color: #FF5678;
+}
+
+main{
+    width: 60rem;
+    height: 52rem;
+    border: 0.1rem solid rgba(0,0,0,0.15);
+    /* rever*/
+    padding: 4.4rem 5.7rem;
+}
+
+main h2{
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+main .actions{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* existe diferença entre o .actions junto e separado*/
+/*main .actions a:first-child*/
+
+main .actions a{
+    background-color: #35E6E9;
+    border-radius: 1.2rem;
+    text-decoration: none; /* remove o underline */
+    height: 5.5rem;
+    font-size: 2.4rem;
+    color: white;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .actions a + a{
+    background-color: #FF5678;
+    margin-top: 4.8rem;
+}
+
+main footer p{
+    font-size: 1.6rem;
+    margin-top: 8rem;
+}
+
+main footer a{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+}
